@@ -1,0 +1,31 @@
+/* Apply basic styles to the navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the navigation list */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style each navigation item */
+.navbar li {
+    float: left;
+}
+
+/* Style the links */
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    background-color: #555;
+}

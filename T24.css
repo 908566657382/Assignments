@@ -1,0 +1,26 @@
+/* Apply basic styles to the table */
+.company-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Style table headers */
+.company-table th {
+    background-color: #44d150;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table cells */
+.company-table td, .company-table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Style alternating rows for better readability */
+.company-table tbody tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}

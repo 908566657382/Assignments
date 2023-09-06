@@ -1,0 +1,32 @@
+
+/* Apply basic table styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Style table headers */
+th {
+    background-color: #7dfa08;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table cells */
+td {
+    border: 1px solid #7dfa08;
+    padding: 10px;
+}
+
+/* Style alternating rows for better readability */
+tbody tr:nth-child(odd) {
+    background-color: #7dfa08;
+}
+
+
+
+
+
